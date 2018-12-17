@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #content {
   /*background-color: gray; /* gray */
@@ -5,4 +6,13 @@
 h1 {
   margin-bottom: 30px;
   text-align: center;
+=======
+
+#content {
+  /*background-color: gray; /* gray */
+}
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+>>>>>>> d9a468e8ec2f578f1f8e36178ef9c21be5fdafac
 }
