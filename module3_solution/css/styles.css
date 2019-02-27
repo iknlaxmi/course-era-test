@@ -4,12 +4,18 @@ body{
 
 	/*background-color: #61122f;*/
 	font-family: 'oxygen',sanserif;
+	
 }
-#header-nav{
+/*#header-nav{
 	background-color: gray;
 	border-radius: 0;
 	border:5px;	
 	height: 100px;
+}*/
+#nav{
+	border-radius: 0;
+	background-color: gray;
+	border:0;
 }
 .navbar-brand h1{
 	font-size: 25px;
@@ -17,7 +23,7 @@ body{
 	color: black;
 	margin-top: 0;
 	font-weight: bold;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'oxygen',sanserif;
 }
 #main-content{
 	height: 1000px;
@@ -29,11 +35,12 @@ body{
 #main-content p{
 	color: black;	
 }
-#main-content.col-xs-12{
+/*#main-content.col-xs-12{
 	margin-top: 50px;
-}
+}*/
 #main-page h2{
 	text-align: center;
+	color: black;
 }
 
 #main-page h1{
@@ -80,7 +87,8 @@ body{
 @media (max-width: 767px) {
   /* Header */
   .navbar-brand {
-    padding-top: 10px;
+    padding-top: 10px 0;
+ 
     /*height: 80px;*/
   }
   /*.navbar-brand h1 {
